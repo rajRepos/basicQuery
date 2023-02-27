@@ -1,1 +1,1 @@
-select * from department where id='123' orderby 'name';
+select * from department where id='123' groupby 'count' orderby 'name';
